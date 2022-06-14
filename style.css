@@ -1,0 +1,24 @@
+@import url('https://fonts.google.com/specimen/Oswald#standard-styles');
+
+/*mobile*/
+/* i. Font size for all headings should be 20px*/
+
+
+@media screen and (max-width: 600px) {
+
+    h1,\
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 20px;
+    }
+
+    p,
+    div
+    {
+        color: #fff;
+        background-color: #3D3B8E;
+    }
+}
